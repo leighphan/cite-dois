@@ -1,1 +1,1 @@
-# cite2dois
+# cite-dois
