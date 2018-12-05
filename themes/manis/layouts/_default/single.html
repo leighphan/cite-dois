@@ -17,6 +17,14 @@
 	</a>
 {{ end }}
 </nav>
+
+<div>Short Description of {{.Site.Data.article-title.Name}}: <p>{{ index .Site.Data.article-title "Short Description" | markdownify }}</p></div>
+
+<!-- {{ range .Site.Data.pubs }}
+	{{.article-title}} <br> {{.author}} <br> {{.year}}
+
+{{end}} -->
+
 {{ partial "related" . }}
 {{ if in .Site.Params.DisqusSections .Section }}
 	{{ partial "disqus" . }}
