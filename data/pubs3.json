@@ -1,0 +1,10 @@
+{
+  "pub": {
+    "title": "Why do Models",
+    "DOI": "http://example.com"
+},
+  "pub2": {
+    "title": "What is going on json?",
+    "DOI": "http://example.com/2"
+  }
+}
